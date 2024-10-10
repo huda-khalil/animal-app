@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/animal-app/static/css/main.dfb55871.css",
+    "main.js": "/animal-app/static/js/main.f7282ad1.js",
+    "static/js/453.95aa5413.chunk.js": "/animal-app/static/js/453.95aa5413.chunk.js",
+    "static/media/image9.jpg": "/animal-app/static/media/image9.26c3d5f0bcb2a2b8d162.jpg",
+    "static/media/abstract-rose-quarz-pink-fusia-background.jpg": "/animal-app/static/media/abstract-rose-quarz-pink-fusia-background.07a6d9be5d69180e353d.jpg",
+    "static/media/image7.png": "/animal-app/static/media/image7.dd5faec66ea32f17a4c1.png",
+    "static/media/image1.png": "/animal-app/static/media/image1.da438d280b577efd3fe6.png",
+    "index.html": "/animal-app/index.html",
+    "main.dfb55871.css.map": "/animal-app/static/css/main.dfb55871.css.map",
+    "main.f7282ad1.js.map": "/animal-app/static/js/main.f7282ad1.js.map",
+    "453.95aa5413.chunk.js.map": "/animal-app/static/js/453.95aa5413.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfb55871.css",
+    "static/js/main.f7282ad1.js"
+  ]
+}
