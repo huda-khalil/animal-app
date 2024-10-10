@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 0;
+  overflow: hidden;
+  background-image: url("./img/abstract-rose-quarz-pink-fusia-background.jpg");
+  background-size: cover;
+}
+
+center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  min-width: 500px;
+  height: 700px;
+  margin: auto;
+}
+
+.dice-container {
+  display: grid;
+  grid-template: auto auto/ repeat(3, 1fr);
+  gap: 2rem;
+  min-width: 400px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 8px rgb(230, 156, 168) solid;
+  box-shadow: 5px 5px 15px rgb(145, 144, 144);
+  cursor: pointer;
+  transition: ease-in-out 400ms;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.roll-btn {
+  padding: 0.5rem 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  background-color: rgb(250, 246, 250);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(109, 128, 0);
+  border: none;
+  cursor: pointer;
+  box-shadow: 6px 6px 19px rgb(160, 153, 153);
+}
+
+/* .main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.win-text {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  font-size: 3.5rem;
+  text-align: center;
+  color: rebeccapurple;
+  font-family: "Spicy Rice", serif;
+  transition: ease-in-out 0.5s;
+  text-transform: uppercase;
+}
+
+h1 {
+  box-shadow: 5px 5px 5px rgb(200, 97, 200);
+  padding: 1rem;
+  font-family: "Spicy Rice", serif;
+  color: rebeccapurple;
+  font-weight: normal;
+}
+
+.text {
+  width: 400px;
+  text-align: center;
+  padding: 0 2rem;
+  position: absolute;
+  font-size: 1.5rem;
+  color: rebeccapurple;
+  font-family: "Spicy Rice", serif;
+}
+
+.board-div {
+  background-color: silver;
+  display: flex;
+  margin: 0 0 1.5rem 0;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  gap: 2rem;
+}
+
+.span-text {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.time-div {
+  margin-top: -6rem;
+}
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  .die-img {
+    width: 40px;
+    height: 40px;
+  }
+  .img-div {
+    padding-left: 0;
+  }
+}
