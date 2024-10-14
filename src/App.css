@@ -7,8 +7,10 @@ body {
   overflow: hidden;
   background-image: url("./img/abstract-rose-quarz-pink-fusia-background.jpg");
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
+  /* padding: 1rem; */
+  overflow-y: auto;
 }
 
 center {
@@ -44,8 +46,8 @@ img:hover {
 }
 
 .roll-btn {
-  padding: 0.5rem 3rem;
-  margin-top: 1rem;
+  padding: 0.3rem 2rem;
+  margin-top: 1.5rem;
   margin-bottom: 2rem;
   border-radius: 10px;
   background-color: rgb(53, 48, 53);
